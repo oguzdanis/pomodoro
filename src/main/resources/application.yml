@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://pomodoro.czzgf828gl1n.us-east-2.rds.amazonaws.com/pomodorotestdb
+    username: oguz
+    password: Ogzdns58
+  jpa:
+    generate-ddl: false
+    properties:
+      hibernate:
+        default_schema: public
+
+jwt:
+  header: Authorization
+  secret: sadsadasdasfasfsdfsdfsdfsdf
